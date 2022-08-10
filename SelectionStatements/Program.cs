@@ -13,8 +13,10 @@ namespace SelectionStatements
             var randomNumber = new NumberGen();
             randomNumber.GuessMe();
 
-            var favoriteSubject = new FavoriteSubject();
+            var favoriteSubject = new FavSubject();
             favoriteSubject.UserSubject();
+
+            Console.ReadLine(); 
         }
     }
 }
